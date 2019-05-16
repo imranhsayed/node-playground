@@ -1,7 +1,7 @@
 # Node playground
 
 ## Description :clipboard:
-> A demo app for node application
+> A demo app for node
 
 ## Branches Information
 
