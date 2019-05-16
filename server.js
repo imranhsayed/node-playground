@@ -1,22 +1,22 @@
-const path = require('path');
-const express = require( 'express' );
+function printHelp(  ) {
+	console.warn( "Help description" );
+	console.warn( "" );
+	console.warn( "usage" );
+	console.warn( "--help      print this help" );
+	console.warn( "--name say hello to {NAME}" );
+	console.warn( "" );
+}
 
-// Application instance
-const app = express();
+const args = require( 'minimist' )(process.argv.slice(2), { string: "name" });
 
-/**
- * Create a get request
- * The call back function will run each time our application receives a get request on 'localhost:8080/' root url
- */
-app.get( '/', function ( req, res ) {
-	// Sending the html file using res.sendFile
-	res.sendFile('index.html', {
-		root: path.join(__dirname, './')
-	})
-} );
 
-/**
- * Binds your application on port 8080,
- * The call back function is executed when your application is ready to receive request
- */
-app.listen( 8080, () => console.warn( 'Listening on Port 8080' ) );
+if ( args.help || ! args.name ) {
+	printHelp();
+	process.exit(1);
+}
+
+const name = args.name;
+
+console.log( "Hello " + name );
+
+// Now if you don't pass params in command `node server.js --name=  ` you will get error
