@@ -6,6 +6,7 @@
 ## Branches Information
 
 1. [event-emitter](https://github.com/imranhsayed/node-playground/tree/event-emitter) Example for Node Events
+2. [file-uploads](https://github.com/imranhsayed/node-playground/tree/file-uploads) Example for File Uploads in node using Formidable module
 
 ## Common Commands :computer:
 

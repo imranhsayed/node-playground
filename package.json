@@ -5,9 +5,12 @@
   "main": "server.js",
   "scripts": {
     "dev": "node server.js",
-	"dev:watch": "nodemon server.js"
+    "dev:watch": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "formidable": "^1.2.1"
+  }
 }
