@@ -7,6 +7,7 @@
 
 1. [event-emitter](https://github.com/imranhsayed/node-playground/tree/event-emitter) Example for Node Events
 2. [file-uploads](https://github.com/imranhsayed/node-playground/tree/file-uploads) Example for File Uploads in node using Formidable module
+1. [send-email](https://github.com/imranhsayed/node-playground/tree/send-email) Example for sending email using nodemailer package
 
 ## Common Commands :computer:
 
