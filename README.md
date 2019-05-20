@@ -3,7 +3,7 @@
 ## Description :clipboard:
 > A demo app for node
 
-## Chrome Developer tool for Node Demo:video_camera:
+## Chrome Developer tool for Node Demo :video_camera:
 ![](debugger.gif)
 
 ## Branches Information
