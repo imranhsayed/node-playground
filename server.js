@@ -1,5 +1,10 @@
-const path = ( 'path' );
+const express = require( 'express' );
 
-const newPath = path.join( '../home', 'nav/', '../footer' );
+const app = express();
 
-console.warn( newPath );
+app.get( '/', ( req, res ) => {
+	debugger;
+	console.warn( req.id );
+} );
+
+app.listen( 5000, () => console.warn( 'server started' ) );
