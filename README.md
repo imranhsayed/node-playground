@@ -9,6 +9,7 @@
 2. [file-uploads](https://github.com/imranhsayed/node-playground/tree/file-uploads) Example for File Uploads in node using Formidable module( using http )
 3. [send-email](https://github.com/imranhsayed/node-playground/tree/send-email) Example for sending email using nodemailer package ( using http )
 4. [sendfile-express](https://github.com/imranhsayed/node-playground/tree/sendfile-express) Send an index.html file using res.sendFile ( with express ) to port 8080 where you can view it in the browser on `localhost://8080`. 
+5. [path-example](https://github.com/imranhsayed/node-playground/tree/path-example) Example for using the path module that comes shipped with node.
 
 ## Common Commands :computer:
 
